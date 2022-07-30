@@ -1,0 +1,23 @@
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+}
+.pine{
+    width:100vw;
+}
+.about{
+   text-align: center;
+   padding: 23px;
+   margin:25px;
+}
+.fruit,.vegetable,.cart{
+    margin: 25px 100px;
+    
+}
+.order img{
+    /* transition: transform .7s ease-in-out; */
+}
+.order img:hover{
+    /* transform:rotate(360deg); */
+}
