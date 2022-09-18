@@ -12,6 +12,8 @@
   </head>
   <body>
     <h1></h1>
+
+    <img class="pine" src="photo-1517260911058-0fcfd733702f.jfif" alt="">
     <nav class="navbar  navbar-light bg-success fixed-top ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Nature Fresh</a>
@@ -20,6 +22,11 @@
           </button>
           <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
+              <!-- <i class="bi bi-arrow-left-circle-fill"></i> -->
+              <a href="index.html"  ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" color="success"  class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+              </svg>
+            </a>
               <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img src="images-removebg-preview.png" alt=""></h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -47,9 +54,21 @@
           </div>
         </div>
       </nav>
+      <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="google"><i class="fa fa-google"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
       <section class="home">
 
-          <img class="pine" src="photo-1517260911058-0fcfd733702f.jfif" alt="">
+         
+          
 
         </section>
 
@@ -72,6 +91,77 @@
 
 </div>
         </section>
+<section class="bottom">
+
+
+</section>
+<section class="login">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  
+  <section id="login">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-wrap">
+                  <h1>Log in with your email account</h1>
+                      <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
+                          <div class="form-group">
+                              <label for="email" class="sr-only">Email</label>
+                              <input type="email" name="email" id="email" class="form-control" placeholder="somebody@example.com">
+                          </div>
+                          <div class="form-group">
+                              <label for="key" class="sr-only">Password</label>
+                              <input type="password" name="key" id="key" class="form-control" placeholder="Password">
+                          </div>
+                          <div class="checkbox">
+                              <span class="character-checkbox" onclick="showPassword()"></span>
+                              <span class="label">Show password</span>
+                          </div>
+                          <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Log in">
+                      </form>
+                      <a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal">Forgot your password?</a>
+                      <hr>
+                </div>
+          </div> <!-- /.col-xs-12 -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+  </section>
+  
+  <div class="modal fade forget-modal" tabindex="-1" role="dialog" aria-labelledby="myForgetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">×</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title">Recovery password</h4>
+        </div>
+        <div class="modal-body">
+          <p>Type your email account</p>
+          <input type="email" name="recovery-email" id="recovery-email" class="form-control" autocomplete="off">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-custom">Recovery</button>
+        </div>
+      </div> <!-- /.modal-content -->
+    </div> <!-- /.modal-dialog -->
+  </div> <!-- /.modal -->
+  
+  <footer id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12">
+                  
+              </div>
+          </div>
+      </div>
+  </footer>
+</section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
